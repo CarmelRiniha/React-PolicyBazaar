@@ -4,7 +4,7 @@ import { faPaperPlane, faHeadset } from "@fortawesome/free-solid-svg-icons";
 
 function Help() {
   return (
-    <div className="flex flex-cols justify-center">
+    <div className="flex flex-cols justify-around">
       <div className="rightdiv">
         <div className="text-help-head font-semibold text-3xl">
           Have a question?
@@ -12,7 +12,7 @@ function Help() {
         <div className="text-help-head font-semibold text-3xl">
           Here to help.
         </div>
-        <div className="h-1 w-20 my-4 bg-help-line"></div>
+        <div className="h-1 w-20 my-7 bg-help-line"></div>
         <div className="w-80">
           <p className="text-help-head">
             Our friendly customer support team is your extended family. Speak
@@ -22,18 +22,23 @@ function Help() {
           </p>
         </div>
 
-        <div className="border-2 flex flex-cols my-3 rounded-lg">
-          <div className="flex">
-            <FontAwesomeIcon icon={faPaperPlane} className=" text-xl m-6" />
+        <div className="border-2  border-help-box flex flex-cols my-6 py-3 rounded-lg">
+          <div>
+            <FontAwesomeIcon icon={faPaperPlane} className=" text-xl m-6 text-help-head" />
           </div>
-          <div className="flex flex-row">
-            <span> General Enquiries</span>
-            <span>care@policybazaar.com</span>
+          <div className="mt-3">
+            <div className="text-help-box"> General Enquiries</div>
+            <span className="text-help-head font-semibold text-md" >care@policybazaar.com</span>
           </div>
         </div>
-
-        <div className="border-2 my-4 rounded-lg">
-          <FontAwesomeIcon icon={faHeadset} className=" text-xl m-6" />
+        <div className="border-2 border-help-box  flex flex-cols my-6 py-3 rounded-lg">
+          <div>
+            <FontAwesomeIcon icon={faHeadset} className=" text-xl m-6 text-help-head" />
+          </div>
+          <div className="mt-3">
+            <div className="text-help-box ">Customer Sales Enquiries</div>
+            <span className="text-help-head font-semibold text-md">1800-208-8787</span>
+          </div>
         </div>
       </div>
       <div className="leftdiv">
