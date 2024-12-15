@@ -9,7 +9,11 @@ export default {
       'footer-gray':'#b3bac5',
       'help-head':'#253858',
       'help-line':'#0065ff',
-      'help-box':'#5e6384'
+      'help-box':'#5e6384',
+      'getpb-bg':'#f7f9ff',
+      'pc-pink':'#fff1ed',
+      'pc-blue':'#e6fcff',
+      'pc-violet':'#f0edff',
     },
    
     extend: {

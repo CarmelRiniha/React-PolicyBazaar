@@ -4,8 +4,8 @@ import { faPaperPlane, faHeadset } from "@fortawesome/free-solid-svg-icons";
 
 function Help() {
   return (
-    <div className="flex flex-cols justify-around">
-      <div className="rightdiv">
+    <div className="flex flex-cols my-10 sm:mx-18 justify-around">
+      <div className="rightdiv ">
         <div className="text-help-head font-semibold text-3xl">
           Have a question?
         </div>
@@ -22,7 +22,7 @@ function Help() {
           </p>
         </div>
 
-        <div className="border-2  border-help-box flex flex-cols my-6 py-3 rounded-lg">
+        <div className="border  border-help-box flex flex-cols my-6 py-2.5 rounded-lg">
           <div>
             <FontAwesomeIcon icon={faPaperPlane} className=" text-xl m-6 text-help-head" />
           </div>
@@ -31,7 +31,7 @@ function Help() {
             <span className="text-help-head font-semibold text-md" >care@policybazaar.com</span>
           </div>
         </div>
-        <div className="border-2 border-help-box  flex flex-cols my-6 py-3 rounded-lg">
+        <div className="border border-help-box  flex flex-cols my-6 py-2.5 rounded-lg">
           <div>
             <FontAwesomeIcon icon={faHeadset} className=" text-xl m-6 text-help-head" />
           </div>

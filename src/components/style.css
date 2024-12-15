@@ -1,0 +1,49 @@
+.custom-list {
+    list-style: none; 
+    padding: 0; 
+    margin: 0;        
+  }
+  
+  .custom-list li {
+    position: relative;
+    padding-left: 30px; 
+    margin-bottom: 10px; 
+  }
+  
+  .custom-list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 12px;
+    transform: translateY(-50%);
+    width: 16px; 
+    height: 16px; 
+    background-image: url('src/assets/star-outline (1).webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+
+
+
+
+
+swiper-container {
+  
+    width: 380px;
+    height: 250px;
+    margin:20px;
+
+}
+
+swiper-slide {
+   width: 100%;
+   height: 100%;
+}
+
+swiper-slide img {
+    margin-top:20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
