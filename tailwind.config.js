@@ -14,11 +14,15 @@ export default {
       'pc-pink':'#fff1ed',
       'pc-blue':'#e6fcff',
       'pc-violet':'#f0edff',
+      'partner':'#0000005C',
+      'fea-green':'#31c48d',
+      'fea-blue':'#3f83f8',
+      'fea-pink':'#f8b4d9',
     },
    
     extend: {
       fontFamily:{
-        'roboto':['Roboto','sans-serif']
+        roboto:['Roboto','sans-serif']
       }
     },
   },

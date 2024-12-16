@@ -2,7 +2,7 @@ import React from "react";
 
 function SocialMedia() {
   return (
-    <div className=" bg-footer-white bg-opacity-10 flex justify-between px-6 pt-2 pb-4 mt-8 rounded-lg">
+    <div className=" lg:bg-footer-white lg:bg-opacity-10 md:bg-footer-bg flex justify-between px-6 pt-2 pb-4 mt-8 rounded-lg">
       <div className="text-footer-white ">
         <p className="font-bold pb-2">Payment Methods</p>
         <div className="flex flex-cols flex-wrap z-8 gap-2">
@@ -14,12 +14,12 @@ function SocialMedia() {
           <img src="src\assets\master-card-icon.avif" />
         </div>
       </div>
-      <div className="w-px bg-footer-white bg-opacity-30"></div>
+      <div className="w-px lg:bg-footer-white lg:bg-opacity-30"></div>
       <div className="text-footer-white text-center">
         <p className="font-bold pb-2">Secured With</p>
         <img src="src\assets\pci-icon.avif" className="pl-2" />
       </div>
-      <div className="w-px bg-footer-white bg-opacity-30"></div>
+      <div className="w-px lg:bg-footer-white bg-opacity-30"></div>
       <div className="text-footer-white ">
         <p className="font-bold pb-2">Follow us on</p>
         <div className="flex flex-cols flex-wrap z-8 gap-2">

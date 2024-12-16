@@ -4,7 +4,7 @@ import { faPaperPlane, faHeadset } from "@fortawesome/free-solid-svg-icons";
 
 function Help() {
   return (
-    <div className="flex flex-cols my-10 sm:mx-18 justify-around">
+    <div className="flex flex-cols my-10 sm:mx-18 justify-around md:flex-row">
       <div className="rightdiv ">
         <div className="text-help-head font-semibold text-3xl">
           Have a question?

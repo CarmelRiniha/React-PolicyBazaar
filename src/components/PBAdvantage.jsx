@@ -19,7 +19,7 @@ function PBAdvantage() {
           <a className="text-help-line"> Know more</a>
         </div>
 
-        <div className="flex flex-cols my-4 gap-7 text-help-head flex-wrap">
+        <div className="flex md:flex-cols  my-4 gap-7 text-help-head flex-wrap">
           <div className="border border-opacity-30 border-help-box p-3 hover:font-semibold transition-all duration-100 ease-in-out hover:border-footer-white hover:shadow-[0px_4px_8px_rgba(0,0,0,0.2)] hover:scale-110 ">
             <div className="w-24 h-24 justify-start">
               <img src="src\assets\laptop.jpg " />

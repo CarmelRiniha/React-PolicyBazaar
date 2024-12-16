@@ -1,11 +1,9 @@
 import React from "react";
-import './style.css'
+import "./style.css";
 function GetPBApp() {
   return (
-   
-
-    <div className="flex flex-cols bg-getpb-bg py-10 sm:mx-18 justify-around">
-      <div className="rightdiv">
+    <div className="flex flex-col bg-getpb-bg py-10 sm:mx-18 justify-around md:flex-row">
+      <div className="rightdiv max-w-6xl">
         <div className="text-help-head font-semibold text-3xl">
           Get the Policybazaar app
         </div>
@@ -24,16 +22,17 @@ function GetPBApp() {
             <li>Download your policy with a single tap</li>
           </ul>
         </div>
-        <div className="text-help-head">
-            <p>Download our app from</p>
+        <div className="text-help-head hidden md:block lg:block ">
+          <p>Download our app from</p>
         </div>
-        <div className="w-40 mt-6 flex flex-cols gap-6">
-            <img src='src\assets\Google_Play_Store_badge_EN.svg.webp'/>
-            <img src='src\assets\download.png'/>
+        <div className="w-40 mt-6 flex flex-cols gap-6 hidden lg:block">
+          <img src="src\assets\Google_Play_Store_badge_EN.svg.webp" />
+          <img src="src\assets\download.png" />
         </div>
       </div>
       <div className="leftdiv w-2/5 ">
         <img src="src\assets\get-app.avif"></img>
+        <button className="bg-help-line text-footer-white py-2 px-10 rounded-lg hidden  ">GET THE APP NOW</button>
       </div>
     </div>
   );

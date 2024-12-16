@@ -6,15 +6,25 @@ import GetPBApp from "./components/GetPBApp";
 import PBAdvantage from "./components/PBAdvantage";
 import CustomerReviews from "./components/CustomerReviews";
 import PopularCalculators from "./components/PopularCalculators";
+import Partners from "./components/Partners";
+import "@fontsource/roboto";
+import FeatureBox from "./components/FeatureBox";
+import HomeBanner from "./components/HomeBanner";
+
 function App() {
   return (
     <div>
       {/* <CustomerReviews/> */}
-      <PopularCalculators/>
-      <PBAdvantage/>
+      <FeatureBox />
+      {/* <PopularCalculators/> */}
+
+      <HomeBanner />
+      <PBAdvantage />
       <GetPBApp />
+      <Partners />
       <Help />
-      {/* <GroupBrands/> */}
+      <GroupBrands />
+
       <Footer />
     </div>
   );
