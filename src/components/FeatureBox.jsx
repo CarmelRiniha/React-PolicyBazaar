@@ -10,14 +10,14 @@ function FeatureBox() {
     slidesToScroll: 3,
     infinite: true,
     autoplay: true,
-    autoplaySpeed: 1000,
+    autoplaySpeed: 2000,
   };
 
   return (
-    <div className="bg-getpb-bg gap-4 flex items-center">
-      <div className="container mx-auto max-w-6xl mb-8 text-footer-white  ">
-        <Slider {...settings} className="mx-4">
-          <div className=" m-4 rounded-lg bg-fea-green bg-opacity-60 mx-1 p-5">
+    <div className="bg-getpb-bg gap-4 flex p-10 items-center">
+      <div className="container mx-auto max-w-6xl mb-8  text-footer-white  ">
+        <Slider {...settings} >
+          <div className=" border-4 border-getpb-bg  rounded-lg bg-fea-green bg-opacity-60 mx-1 p-5">
             <div className="flex justify-between">
               <p className="text-sm ">Investment Plans</p>
               <p className="text-xs ">Icon</p>
@@ -26,7 +26,7 @@ function FeatureBox() {
             <p className="text-lg pb-4"> 1 Crore return*</p>
           </div>
 
-          <div className=" m-4 rounded-lg  bg-fea-blue p-2 mx-1 ">
+          <div className="border-4 border-getpb-bg  rounded-lg  bg-fea-blue p-2 mx-1 ">
             <div className="flex justify-between">
               <p className="text-sm ">Health Insurance</p>
               <p className="text-xs ">Icon</p>
@@ -38,7 +38,7 @@ function FeatureBox() {
             </button>
           </div>
 
-          <div className=" m-4 rounded-lg p-2 bg-fea-pink mx-1">
+          <div className=" border-4 border-getpb-bg rounded-lg p-2 bg-fea-pink mx-1">
             <div className="flex justify-between">
               <p className="text-sm ">Reach your financial goals</p>
               <p className="text-xs ">Icon</p>
@@ -49,7 +49,7 @@ function FeatureBox() {
               Calculate now
             </button>
           </div>
-          <div className=" m-4 rounded-lg bg-fea-green bg-opacity-60 mx-1 p-5">
+          <div className="border-4 border-getpb-bg  rounded-lg bg-fea-green bg-opacity-60 mx-1 p-5">
             <div className="flex justify-between">
               <p className="text-sm ">Investment Plans</p>
               <p className="text-xs ">Icon</p>
@@ -58,19 +58,19 @@ function FeatureBox() {
             <p className="text-lg pb-4"> 1 Crore return*</p>
           </div>
           
-          <div className=" m-4 rounded-lg  bg-fea-blue p-2 mx-1 ">
+          <div className=" border-4 border-getpb-bg  rounded-lg  bg-fea-blue p-2 mx-1 ">
             <div className="flex justify-between">
               <p className="text-sm ">Health Insurance</p>
               <p className="text-xs ">Icon</p>
             </div>
-            <p className="text-lg"> Book Free Health Insurance</p>
+            <p className="text-lg "> Book Free Health Insurance</p>
             <p className="text-lg pb-4"> Consultation at home</p>
             <button className="rounded-md px-2 bg-footer-white text-help-line">
               Book Home visit
             </button>
           </div>
 
-          <div className=" m-4 rounded-lg p-2 bg-fea-pink mx-1">
+          <div className=" border-4 border-getpb-bg  rounded-lg p-2 bg-fea-pink mx-1">
             <div className="flex justify-between">
               <p className="text-sm ">Reach your financial goals</p>
               <p className="text-xs ">Icon</p>

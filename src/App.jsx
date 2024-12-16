@@ -10,15 +10,17 @@ import Partners from "./components/Partners";
 import "@fontsource/roboto";
 import FeatureBox from "./components/FeatureBox";
 import HomeBanner from "./components/HomeBanner";
+import BestPlace from "./components/BestPlace";
 
 function App() {
   return (
     <div>
       {/* <CustomerReviews/> */}
       <FeatureBox />
-      {/* <PopularCalculators/> */}
-
+      <BestPlace />
       <HomeBanner />
+      <PopularCalculators />
+
       <PBAdvantage />
       <GetPBApp />
       <Partners />

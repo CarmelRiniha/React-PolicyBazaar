@@ -25,14 +25,14 @@ function GetPBApp() {
         <div className="text-help-head hidden md:block lg:block ">
           <p>Download our app from</p>
         </div>
-        <div className="w-40 mt-6 flex flex-cols gap-6 hidden lg:block">
-          <img src="src\assets\Google_Play_Store_badge_EN.svg.webp" />
-          <img src="src\assets\download.png" />
+        <div className="w-40 mt-6 flex flex-cols gap-6  ">
+          <img className="hidden lg:block md:block" src="src\assets\Google_Play_Store_badge_EN.svg.webp" />
+          <img  className="hidden lg:block md:block" src="src\assets\download.png" />
         </div>
       </div>
-      <div className="leftdiv w-2/5 ">
-        <img src="src\assets\get-app.avif"></img>
-        <button className="bg-help-line text-footer-white py-2 px-10 rounded-lg hidden  ">GET THE APP NOW</button>
+      <div className="leftdiv w-2/5 flex  flex-col">
+        <img className=""src="src\assets\get-app.avif"></img>
+        <button className="bg-help-line text-footer-white py-2 rounded-lg  sm:visible md:hidden">GET THE APP NOW</button>
       </div>
     </div>
   );

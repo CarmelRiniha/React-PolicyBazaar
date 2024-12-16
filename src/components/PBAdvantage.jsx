@@ -10,7 +10,7 @@ function PBAdvantage() {
 
         <div className="h-1 w-16 mt-3 mb-5 bg-help-line"></div>
         <div>
-          <p className="text-help-head pb-2 md:w-1/2 sm:w-screen">
+          <p className="text-help-head pb-2 md:w-1/2 ">
             When you buy insurance from us, you get more than just financial
             safety. You also get: our promise of simplifying complex insurance
             terms and conditions, quick stress-free claims, instant quotes from
@@ -23,6 +23,7 @@ function PBAdvantage() {
           <div className="border border-opacity-30 border-help-box p-3 hover:font-semibold transition-all duration-100 ease-in-out hover:border-footer-white hover:shadow-[0px_4px_8px_rgba(0,0,0,0.2)] hover:scale-110 ">
             <div className="w-24 h-24 justify-start">
               <img src="src\assets\laptop.jpg " />
+              {/* <img src="src\assets\advantages-sprite.jpg " /> */}
             </div>
             <div className="text-center">
               <p className="text-xl "> One of best Prices</p>

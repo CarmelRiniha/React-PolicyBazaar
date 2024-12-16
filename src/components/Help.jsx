@@ -4,7 +4,7 @@ import { faPaperPlane, faHeadset } from "@fortawesome/free-solid-svg-icons";
 
 function Help() {
   return (
-    <div className="flex flex-cols my-10 sm:mx-18 justify-around md:flex-row">
+    <div className="flex flex-col py-10 sm:mx-18 justify-around md:flex-row">
       <div className="rightdiv ">
         <div className="text-help-head font-semibold text-3xl">
           Have a question?
@@ -13,6 +13,9 @@ function Help() {
           Here to help.
         </div>
         <div className="h-1 w-20 my-7 bg-help-line"></div>
+        <div className="leftdiv mb-8 md:hidden sm:visible">
+        <img src="src\assets\help.png"></img>
+      </div>
         <div className="w-80">
           <p className="text-help-head">
             Our friendly customer support team is your extended family. Speak
@@ -41,7 +44,7 @@ function Help() {
           </div>
         </div>
       </div>
-      <div className="leftdiv">
+      <div className="leftdiv hidden mt-10 lg:block">
         <img src="src\assets\help.png"></img>
       </div>
     </div>
