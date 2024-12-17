@@ -18,6 +18,10 @@ export default {
       'fea-green':'#31c48d',
       'fea-blue':'#3f83f8',
       'fea-pink':'#f8b4d9',
+      'dark-blue':'#2d3cd9',
+      'light-blue':'#0bbdf2',
+      'light-green':'#47d990',
+      'yellow':'#ffc400'
     },
    
     extend: {

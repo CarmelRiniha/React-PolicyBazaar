@@ -7,7 +7,7 @@ import SocialMedia from "./SocialMedia";
 import FContent from "./FContent";
 function Footer() {
   return (
-    <div className="w-full h-auto font-roboto text-sm bg-footer-bg sm:px-5 md:px-10 px-20 py-8 justify-center ">
+    <div className="w-full h-auto font-roboto text-sm bg-footer-bg  md:px-10 px-10 py-8 justify-center ">
       <div className="container  mx-auto  overflow-hidden max-w-6xl">
         <div className="grid grid-cols-1  md:grid-cols-4 sm:grid-cols-3 max-w-full">
           <Insurance />

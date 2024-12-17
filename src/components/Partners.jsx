@@ -5,7 +5,7 @@ function Partners() {
   const imgArray = new Array(49).fill(img);
 
   return (
-    <div className=" bg-getpb-bg ">
+    <div className=" bg-getpb-bg sm:px-4 md:px-10 px-10 py-8 overflow-hidden">
          <div className="text-help-head pt-8  text-center font-semibold text-3xl">
           Our Partners
         </div>

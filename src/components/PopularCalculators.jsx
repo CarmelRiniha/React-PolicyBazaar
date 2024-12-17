@@ -1,9 +1,9 @@
 import React from "react";
-
+import { FaArrowRight } from "react-icons/fa";
 function PopularCalculators() {
   return (
-    <div className="flex py-10 lg:px-40 text-help-head   md:px-20 px-5 py-8">
-      <div className="rightdiv">
+    <div className="flex py-10 lg:px-40 px-10 text-help-head  overflow-hidden  md:px-20 px-5 py-8">
+      <div className="rightdiv w-full ">
         <div className="font-semibold text-3xl">Popular Calculator</div>
 
         <p className="py-4">
@@ -12,7 +12,7 @@ function PopularCalculators() {
           calculators ensures you find the perfect fit for your needs. Explore
           the options below to get started.
         </p>
-        <div className="flex  my-4 gap-7 text-help-head flex-wrap">
+        <div className="flex flex-col lg:flex-row gap-7 my-4 gap-7 text-help-head flex-wrap">
           <div className="border flex-1 border-opacity-30 rounded-lg p-3  border-help-box  ">
             <div className="w-full h-24 bg-pc-pink flex flex-cols rounded-lg justify-between ">
               <div className="pt-4 ml-4 text-lg font-semibold">
@@ -28,40 +28,25 @@ function PopularCalculators() {
                 <li className="py-5 border-b border-opacity-30">
                   <div className="flex justify-between">
                     <p>SIP Calculator</p>
-                    <img
-                      className="w-7 pr-2"
-                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmGi-fLDc5paTHzixjKz7Ee6VBU1rsPxodVQ&s"
-                    ></img>
+                    <FaArrowRight className="w-7 text-help-head" />
                   </div>
                 </li>
                 <li className="py-5 border-b border-opacity-30">
                   <div className="flex justify-between">
                     <p> Income Tax Calculator</p>
-
-                    <img
-                      className="w-7 pr-2"
-                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmGi-fLDc5paTHzixjKz7Ee6VBU1rsPxodVQ&s"
-                    ></img>
+                    <FaArrowRight className="w-7 text-help-head" />
                   </div>
                 </li>
                 <li className="py-5 border-b border-opacity-30">
                   <div className="flex justify-between">
                     <p> ULIP Calculator</p>
-
-                    <img
-                      className="w-7 pr-2"
-                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmGi-fLDc5paTHzixjKz7Ee6VBU1rsPxodVQ&s"
-                    ></img>
+                    <FaArrowRight className="w-7 text-help-head" />
                   </div>
                 </li>
                 <li className="py-5 ">
                   <div className="flex justify-between">
                     <p> NPS Calculator</p>
-
-                    <img
-                      className="w-7 pr-2"
-                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmGi-fLDc5paTHzixjKz7Ee6VBU1rsPxodVQ&s"
-                    ></img>
+                    <FaArrowRight className="w-7 text-help-head" />
                   </div>
                 </li>
               </ul>
@@ -83,40 +68,26 @@ function PopularCalculators() {
                 <li className="py-5 border-b border-opacity-30 ">
                   <div className="flex justify-between">
                     <p>Life Insurance Calculator</p>
-                    <img
-                      className="w-7 pr-2"
-                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmGi-fLDc5paTHzixjKz7Ee6VBU1rsPxodVQ&s"
-                    ></img>
+                    <FaArrowRight className="w-7 text-help-head" />
                   </div>
                 </li>
                 <li className="py-5 border-b border-opacity-30">
                   <div className="flex justify-between">
                     <p> Team Insurance Calculator</p>
-
-                    <img
-                      className="w-7 pr-2"
-                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmGi-fLDc5paTHzixjKz7Ee6VBU1rsPxodVQ&s"
-                    ></img>
+                    <FaArrowRight className="w-7 text-help-head" />
                   </div>
                 </li>
                 <li className="py-5 border-b border-opacity-30">
                   <div className="flex justify-between">
                     <p> Human Life Value Calculator</p>
-
-                    <img
-                      className="w-7 pr-2"
-                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmGi-fLDc5paTHzixjKz7Ee6VBU1rsPxodVQ&s"
-                    ></img>
+                    <FaArrowRight className="w-7 text-help-head" />
                   </div>
                 </li>
                 <li className="py-5 ">
                   <div className="flex justify-between">
                     <p> NRI Term Insurance Calculator</p>
 
-                    <img
-                      className="w-7 pr-2"
-                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmGi-fLDc5paTHzixjKz7Ee6VBU1rsPxodVQ&s"
-                    ></img>
+                    <FaArrowRight className="w-7 text-help-head" />
                   </div>
                 </li>
               </ul>
@@ -138,40 +109,26 @@ function PopularCalculators() {
                 <li className="py-5 border-b border-opacity-30 ">
                   <div className="flex justify-between">
                     <p>Health Insurance Premium Calculator</p>
-                    <img
-                      className="w-7 pr-2"
-                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmGi-fLDc5paTHzixjKz7Ee6VBU1rsPxodVQ&s"
-                    ></img>
+                    <FaArrowRight className="w-7 text-help-head" />
                   </div>
                 </li>
                 <li className="py-5 border-b border-opacity-30">
                   <div className="flex justify-between">
                     <p>Car Insurance Calculator</p>
-
-                    <img
-                      className="w-7 pr-2"
-                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmGi-fLDc5paTHzixjKz7Ee6VBU1rsPxodVQ&s"
-                    ></img>
+                    <FaArrowRight className="w-7 text-help-head" />
                   </div>
                 </li>
                 <li className="py-5 border-b border-opacity-30">
                   <div className="flex justify-between">
                     <p>Bike Insurance Calculator</p>
-
-                    <img
-                      className="w-7 pr-2"
-                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmGi-fLDc5paTHzixjKz7Ee6VBU1rsPxodVQ&s"
-                    ></img>
+                    <FaArrowRight className="w-7 text-help-head" />
                   </div>
                 </li>
                 <li className="py-5 ">
                   <div className="flex justify-between">
                     <p> Travel Insurance Calculator</p>
 
-                    <img
-                      className="w-7 pr-2"
-                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmGi-fLDc5paTHzixjKz7Ee6VBU1rsPxodVQ&s"
-                    ></img>
+                    <FaArrowRight className="w-7 text-help-head" />
                   </div>
                 </li>
               </ul>

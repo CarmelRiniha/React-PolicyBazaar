@@ -2,7 +2,7 @@ import React from "react";
 
 function PBAdvantage() {
   return (
-    <div className="flex py-10 lg:px-40  md:px-20 px-5 py-8">
+    <div className="flex py-10 lg:px-40  md:px-20 px-10 py-8 overflow-hidden">
       <div className="rightdiv">
         <div className="text-help-head font-semibold text-3xl">
           PB Advantage

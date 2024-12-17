@@ -11,13 +11,36 @@ function FeatureBox() {
     infinite: true,
     autoplay: true,
     autoplaySpeed: 2000,
+    responsive: [
+      {
+        breakpoint: 1024, 
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   return (
-    <div className="bg-getpb-bg gap-4 flex p-10 items-center">
+    <div className="bg-getpb-bg gap-4  md:px-20 px-10 py-8 overflow-hidden flex p-10 items-center">
       <div className="container mx-auto max-w-6xl mb-8  text-footer-white  ">
         <Slider {...settings} >
-          <div className=" border-4 border-getpb-bg  rounded-lg bg-fea-green bg-opacity-60 mx-1 p-5">
+          <div className=" border-4 border-getpb-bg  rounded-lg bg-fea-green bg-opacity-60 mx-1 p-5 flex flex-col h-full">
             <div className="flex justify-between">
               <p className="text-sm ">Investment Plans</p>
               <p className="text-xs ">Icon</p>
@@ -26,7 +49,7 @@ function FeatureBox() {
             <p className="text-lg pb-4"> 1 Crore return*</p>
           </div>
 
-          <div className="border-4 border-getpb-bg  rounded-lg  bg-fea-blue p-2 mx-1 ">
+          <div className="border-4 border-getpb-bg  rounded-lg  bg-fea-blue p-2 mx-1 flex flex-col h-full">
             <div className="flex justify-between">
               <p className="text-sm ">Health Insurance</p>
               <p className="text-xs ">Icon</p>
@@ -38,7 +61,7 @@ function FeatureBox() {
             </button>
           </div>
 
-          <div className=" border-4 border-getpb-bg rounded-lg p-2 bg-fea-pink mx-1">
+          <div className=" border-4 border-getpb-bg rounded-lg p-2 bg-fea-pink mx-1 flex flex-col h-full">
             <div className="flex justify-between">
               <p className="text-sm ">Reach your financial goals</p>
               <p className="text-xs ">Icon</p>
@@ -49,7 +72,7 @@ function FeatureBox() {
               Calculate now
             </button>
           </div>
-          <div className="border-4 border-getpb-bg  rounded-lg bg-fea-green bg-opacity-60 mx-1 p-5">
+          <div className="border-4 border-getpb-bg  rounded-lg bg-fea-green bg-opacity-60 mx-1 p-5 flex flex-col h-full">
             <div className="flex justify-between">
               <p className="text-sm ">Investment Plans</p>
               <p className="text-xs ">Icon</p>
@@ -58,7 +81,7 @@ function FeatureBox() {
             <p className="text-lg pb-4"> 1 Crore return*</p>
           </div>
           
-          <div className=" border-4 border-getpb-bg  rounded-lg  bg-fea-blue p-2 mx-1 ">
+          <div className=" border-4 border-getpb-bg  rounded-lg  bg-fea-blue p-2 mx-1 flex flex-col h-full ">
             <div className="flex justify-between">
               <p className="text-sm ">Health Insurance</p>
               <p className="text-xs ">Icon</p>
@@ -70,7 +93,7 @@ function FeatureBox() {
             </button>
           </div>
 
-          <div className=" border-4 border-getpb-bg  rounded-lg p-2 bg-fea-pink mx-1">
+          <div className=" border-4 border-getpb-bg  rounded-lg p-2 bg-fea-pink mx-1 flex flex-col h-full">
             <div className="flex justify-between">
               <p className="text-sm ">Reach your financial goals</p>
               <p className="text-xs ">Icon</p>
