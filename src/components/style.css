@@ -23,7 +23,11 @@
     background-repeat: no-repeat;
   }
   
-
+.bpborder{
+  border-left-width:3px;
+  width:207px;
+  height:180px;
+}
 
 
 

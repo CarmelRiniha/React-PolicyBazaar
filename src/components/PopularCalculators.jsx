@@ -27,25 +27,25 @@ function PopularCalculators() {
               <ul>
                 <li className="py-5 border-b border-opacity-30">
                   <div className="flex justify-between">
-                    <p>SIP Calculator</p>
+                    <p className="hover:text-hoverblue hover:cursor-pointer ">SIP Calculator</p>
                     <FaArrowRight className="w-7 text-help-head" />
                   </div>
                 </li>
                 <li className="py-5 border-b border-opacity-30">
                   <div className="flex justify-between">
-                    <p> Income Tax Calculator</p>
+                    <p className="hover:text-hoverblue hover:cursor-pointer "> Income Tax Calculator</p>
                     <FaArrowRight className="w-7 text-help-head" />
                   </div>
                 </li>
                 <li className="py-5 border-b border-opacity-30">
                   <div className="flex justify-between">
-                    <p> ULIP Calculator</p>
+                    <p className="hover:text-hoverblue hover:cursor-pointer "> ULIP Calculator</p>
                     <FaArrowRight className="w-7 text-help-head" />
                   </div>
                 </li>
                 <li className="py-5 ">
                   <div className="flex justify-between">
-                    <p> NPS Calculator</p>
+                    <p className="hover:text-hoverblue hover:cursor-pointer "> NPS Calculator</p>
                     <FaArrowRight className="w-7 text-help-head" />
                   </div>
                 </li>
@@ -67,25 +67,25 @@ function PopularCalculators() {
               <ul>
                 <li className="py-5 border-b border-opacity-30 ">
                   <div className="flex justify-between">
-                    <p>Life Insurance Calculator</p>
+                    <p className="hover:text-hoverblue hover:cursor-pointer ">Life Insurance Calculator</p>
                     <FaArrowRight className="w-7 text-help-head" />
                   </div>
                 </li>
                 <li className="py-5 border-b border-opacity-30">
                   <div className="flex justify-between">
-                    <p> Team Insurance Calculator</p>
+                    <p className="hover:text-hoverblue hover:cursor-pointer "> Team Insurance Calculator</p>
                     <FaArrowRight className="w-7 text-help-head" />
                   </div>
                 </li>
                 <li className="py-5 border-b border-opacity-30">
                   <div className="flex justify-between">
-                    <p> Human Life Value Calculator</p>
+                    <p className="hover:text-hoverblue hover:cursor-pointer "> Human Life Value Calculator</p>
                     <FaArrowRight className="w-7 text-help-head" />
                   </div>
                 </li>
                 <li className="py-5 ">
                   <div className="flex justify-between">
-                    <p> NRI Term Insurance Calculator</p>
+                    <p className="hover:text-hoverblue hover:cursor-pointer "> NRI Term Insurance Calculator</p>
 
                     <FaArrowRight className="w-7 text-help-head" />
                   </div>
@@ -108,25 +108,25 @@ function PopularCalculators() {
               <ul>
                 <li className="py-5 border-b border-opacity-30 ">
                   <div className="flex justify-between">
-                    <p>Health Insurance Premium Calculator</p>
+                    <p className="hover:text-hoverblue hover:cursor-pointer ">Health Insurance Premium Calculator</p>
                     <FaArrowRight className="w-7 text-help-head" />
                   </div>
                 </li>
                 <li className="py-5 border-b border-opacity-30">
                   <div className="flex justify-between">
-                    <p>Car Insurance Calculator</p>
+                    <p className="hover:text-hoverblue hover:cursor-pointer ">Car Insurance Calculator</p>
                     <FaArrowRight className="w-7 text-help-head" />
                   </div>
                 </li>
                 <li className="py-5 border-b border-opacity-30">
                   <div className="flex justify-between">
-                    <p>Bike Insurance Calculator</p>
+                    <p className="hover:text-hoverblue hover:cursor-pointer ">Bike Insurance Calculator</p>
                     <FaArrowRight className="w-7 text-help-head" />
                   </div>
                 </li>
                 <li className="py-5 ">
                   <div className="flex justify-between">
-                    <p> Travel Insurance Calculator</p>
+                    <p className="hover:text-hoverblue hover:cursor-pointer "> Travel Insurance Calculator</p>
 
                     <FaArrowRight className="w-7 text-help-head" />
                   </div>

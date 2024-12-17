@@ -13,7 +13,7 @@ function HomeBanner() {
     autoplaySpeed: 1000,
     responsive: [
       {
-        breakpoint: 1024, 
+        breakpoint: 1024,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 3,
@@ -39,7 +39,7 @@ function HomeBanner() {
   return (
     <div className="bg-getpb-bg  md:px-20 px-10 py-8 overflow-hidden  flex items-center">
       <div className="container mx-auto overflow-hidden max-w-6xl mb-8 ">
-        <Slider {...settings} >
+        <Slider {...settings}>
           <div className=" m-10  rounded-md h-16 w-32 object-contain">
             <img src="src\assets\beware-of-fraudsters.avif"></img>
           </div>

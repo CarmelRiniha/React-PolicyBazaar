@@ -21,7 +21,17 @@ export default {
       'dark-blue':'#2d3cd9',
       'light-blue':'#0bbdf2',
       'light-green':'#47d990',
-      'yellow':'#ffc400'
+      'yellow':'#ffc400',
+      'bg-gray':'#f2f7ff',
+      'green':'#b6f4b4',
+      'purple':'#998dd9',
+      'orange':'#ff9a9a',
+      'blue':'#00b8d9',
+      'ash':'#6b778c',
+      'hoverblue':'#01458c',
+      'lilac':'#776bfd',
+      'lightorange':'#ff9b2c',
+      
     },
    
     extend: {

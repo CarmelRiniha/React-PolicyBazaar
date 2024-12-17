@@ -11,11 +11,16 @@ import "@fontsource/roboto";
 import FeatureBox from "./components/FeatureBox";
 import HomeBanner from "./components/HomeBanner";
 import BestPlace from "./components/BestPlace";
-
+import DiscountInsurance from "./components/DiscountInsurance";
+import AlsoBuy from "./components/AlsoBuy";
+import TopComponent from "./components/TopComponent";
 function App() {
   return (
     <div>
       {/* <CustomerReviews/> */}
+      {/* <DiscountInsurance/> */}
+      <TopComponent/>
+      <AlsoBuy/>
       <FeatureBox />
       <BestPlace />
       <HomeBanner />

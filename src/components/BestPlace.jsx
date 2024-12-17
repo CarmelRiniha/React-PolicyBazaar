@@ -1,34 +1,68 @@
 import React from "react";
-
+import "./style.css";
 function BestPlace() {
   return (
-    <div className="flex bg-getpb-bg  py-10 lg:px-40 px-10 text-help-head  overflow-hidden  md:px-20 px-5 py-8">
-      <div className="container mx-auto m-width-6xl flex justify-between">
-        <div className="leftdiv text-3xl ">
-          <p className="pb-2">What makes</p>
-          <p className="pb-2">
-            <span className="font-semibold">Policybazaar</span> one of
-          </p>
-          <p className="pb-2">India's favourite places</p>
-          <p className="pb-2">
-            to<span className="font-semibold">buy insurance</span>?
-          </p>
+    <div className="flex   text-help-head  overflow-hidden  py-8">
+      <div className="container mx-auto  flex flex-wrap lg:justify-around ">
+        {/* <div className="img h-full">
+          <img src="src\assets\left-bg.avif"></img>
+        </div> */}
+        <div
+          className="leftdiv text-3xl bg-no-repeat"
+          style={{
+            backgroundImage: `url(https://static.pbcdn.in/cdn/images/home-v1/left-bg.png)`,
+          }}
+        >
+          <div className="mt-20">
+            <p className="pb-2 pl-10">What makes</p>
+            <p className="pb-2 pl-10">Policybazaar one of</p>
+            <p className="font-semibold pb-2 pl-10">
+              India's favourite places
+            </p>
+            <p className="pb-2 pl-10">
+              to <span className="font-semibold ">buy insurance</span>?
+            </p>
+          </div>
         </div>
-        <div className="rightdiv grid grid-cols-2 gap-8">
-          <div className="border-l-2 rounded-md p-4 border-dark-blue flex flex-col">
+        <div className="rightdiv lg:w-1/3 lg:grid lg:grid-cols-2 gap-8 w-2/3 sm:flex ">
+          <div className=" bpborder tracking-tighter	one shadow-lg  rounded-md px-4 pt-4 border-dark-blue flex flex-col ">
             <img src="src\assets\joy.jpg" className="w-5"></img>
-            <p className="py-3 text-lg font-semibold text-dark-blue">
+            <p className="py-2 text-lg font-bold  text-dark-blue">
               Over 9 million
             </p>
             <p>
               customers trust us & have bought their insurance on Policybazaar
             </p>
           </div>
-          <div className="border p-4">Item 2</div>
-          <div className="border p-4">Item 3</div>
-          <div className="border p-4">Item 4</div>
+          <div className=" bpborder tracking-tighter	two shadow-lg rounded-md px-4 pt-4   border-light-blue flex flex-col">
+            <img src="src\assets\joy.jpg" className="w-5"></img>
+            <p className="py-2 text-lg font-bold text-light-blue">
+              50 insurers
+            </p>
+            <p>
+              partnered with us so that you can compare easily & transparently
+            </p>
+          </div>
+          <div className=" bpborder tracking-tighter three	shadow-lg rounded-md px-4 pt-4  border-light-green flex flex-col">
+            <img src="src\assets\joy.jpg" className="w-5"></img>
+            <p className="py-2 text-lg font-bold text-light-green">
+              Great Price
+            </p>
+            <p>for all kinds of insurance plans available online</p>
+          </div>
+          <div className=" bpborder tracking-tighter	four shadow-lg rounded-md p-4 border-yellow flex flex-col">
+            <img src="src\assets\joy.jpg" className="w-5"></img>
+            <p className="py-2 text-lg font-bold text-yellow">Claims</p>
+            <p>
+              support built in with every policy for help, when you need it the
+              most
+            </p>
+          </div>
         </div>
-      </div>{" "}
+        <div className="img h-full">
+          <img src="src\assets\right-bg.avif"></img>
+        </div>
+      </div>
     </div>
   );
 }
