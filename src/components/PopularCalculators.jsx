@@ -27,26 +27,37 @@ function PopularCalculators() {
               <ul>
                 <li className="py-5 border-b border-opacity-30">
                   <div className="flex justify-between">
-                    <p className="hover:text-hoverblue hover:cursor-pointer ">SIP Calculator</p>
-                    <FaArrowRight className="w-7 text-help-head" />
+                    <p className="hover:text-hoverblue hover:cursor-pointer ">
+                      SIP Calculator
+                    </p>
+                    <FaArrowRight className="w-7 text-help-head mt-1" />
                   </div>
                 </li>
                 <li className="py-5 border-b border-opacity-30">
                   <div className="flex justify-between">
-                    <p className="hover:text-hoverblue hover:cursor-pointer "> Income Tax Calculator</p>
-                    <FaArrowRight className="w-7 text-help-head" />
+                    <p className="hover:text-hoverblue hover:cursor-pointer ">
+                    
+                      Income Tax Calculator
+                    </p>
+                    <FaArrowRight className="w-7 text-help-head mt-1" />
                   </div>
                 </li>
                 <li className="py-5 border-b border-opacity-30">
                   <div className="flex justify-between">
-                    <p className="hover:text-hoverblue hover:cursor-pointer "> ULIP Calculator</p>
-                    <FaArrowRight className="w-7 text-help-head" />
+                    <p className="hover:text-hoverblue hover:cursor-pointer ">
+                    
+                      ULIP Calculator
+                    </p>
+                    <FaArrowRight className="w-7 text-help-head mt-1" />
                   </div>
                 </li>
                 <li className="py-5 ">
                   <div className="flex justify-between">
-                    <p className="hover:text-hoverblue hover:cursor-pointer "> NPS Calculator</p>
-                    <FaArrowRight className="w-7 text-help-head" />
+                    <p className="hover:text-hoverblue hover:cursor-pointer ">
+                    
+                      NPS Calculator
+                    </p>
+                    <FaArrowRight className="w-7 text-help-head mt-1" />
                   </div>
                 </li>
               </ul>
@@ -60,34 +71,45 @@ function PopularCalculators() {
                 <p>calculators</p>
               </div>
               <div className=" bg-pc-blue rounded-lg">
-              <img src="src\assets\term-life-calc.svg" />
+                <img src="src\assets\term-life-calc.svg" />
               </div>
             </div>
             <div>
               <ul>
                 <li className="py-5 border-b border-opacity-30 ">
                   <div className="flex justify-between">
-                    <p className="hover:text-hoverblue hover:cursor-pointer ">Life Insurance Calculator</p>
-                    <FaArrowRight className="w-7 text-help-head" />
+                    <p className="hover:text-hoverblue hover:cursor-pointer ">
+                      Life Insurance Calculator
+                    </p>
+                    <FaArrowRight className="w-7 text-help-head mt-1" />
                   </div>
                 </li>
                 <li className="py-5 border-b border-opacity-30">
                   <div className="flex justify-between">
-                    <p className="hover:text-hoverblue hover:cursor-pointer "> Team Insurance Calculator</p>
-                    <FaArrowRight className="w-7 text-help-head" />
+                    <p className="hover:text-hoverblue hover:cursor-pointer ">
+                    
+                      Team Insurance Calculator
+                    </p>
+                    <FaArrowRight className="w-7 text-help-head mt-1" />
                   </div>
                 </li>
                 <li className="py-5 border-b border-opacity-30">
                   <div className="flex justify-between">
-                    <p className="hover:text-hoverblue hover:cursor-pointer "> Human Life Value Calculator</p>
-                    <FaArrowRight className="w-7 text-help-head" />
+                    <p className="hover:text-hoverblue hover:cursor-pointer ">
+                    
+                      Human Life Value Calculator
+                    </p>
+                    <FaArrowRight className="w-7 text-help-head mt-1" />
                   </div>
                 </li>
                 <li className="py-5 ">
                   <div className="flex justify-between">
-                    <p className="hover:text-hoverblue hover:cursor-pointer "> NRI Term Insurance Calculator</p>
+                    <p className="hover:text-hoverblue hover:cursor-pointer ">
+                    
+                      NRI Term Insurance Calculator
+                    </p>
 
-                    <FaArrowRight className="w-7 text-help-head" />
+                    <FaArrowRight className="w-7 text-help-head mt-1" />
                   </div>
                 </li>
               </ul>
@@ -101,34 +123,43 @@ function PopularCalculators() {
                 <p>calculators</p>
               </div>
               <div className=" pt-3 pr-2 bg-pc-violet rounded-lg">
-                <img src='src\assets\health-calc.svg'/>
+                <img src="src\assets\health-calc.svg" />
               </div>
             </div>
             <div>
               <ul>
                 <li className="py-5 border-b border-opacity-30 ">
                   <div className="flex justify-between">
-                    <p className="hover:text-hoverblue hover:cursor-pointer ">Health Insurance Premium Calculator</p>
-                    <FaArrowRight className="w-7 text-help-head" />
+                    <p className="hover:text-hoverblue hover:cursor-pointer ">
+                      Health Insurance Premium Calculator
+                    </p>
+                    <FaArrowRight className="w-7 text-help-head mt-1" />
                   </div>
                 </li>
                 <li className="py-5 border-b border-opacity-30">
                   <div className="flex justify-between">
-                    <p className="hover:text-hoverblue hover:cursor-pointer ">Car Insurance Calculator</p>
-                    <FaArrowRight className="w-7 text-help-head" />
+                    <p className="hover:text-hoverblue hover:cursor-pointer ">
+                      Car Insurance Calculator
+                    </p>
+                    <FaArrowRight className="w-7 text-help-head mt-1" />
                   </div>
                 </li>
                 <li className="py-5 border-b border-opacity-30">
                   <div className="flex justify-between">
-                    <p className="hover:text-hoverblue hover:cursor-pointer ">Bike Insurance Calculator</p>
-                    <FaArrowRight className="w-7 text-help-head" />
+                    <p className="hover:text-hoverblue hover:cursor-pointer ">
+                      Bike Insurance Calculator
+                    </p>
+                    <FaArrowRight className="w-7 text-help-head mt-1" />
                   </div>
                 </li>
                 <li className="py-5 ">
                   <div className="flex justify-between">
-                    <p className="hover:text-hoverblue hover:cursor-pointer "> Travel Insurance Calculator</p>
+                    <p className="hover:text-hoverblue hover:cursor-pointer ">
+                    
+                      Travel Insurance Calculator
+                    </p>
 
-                    <FaArrowRight className="w-7 text-help-head" />
+                    <FaArrowRight className="w-7 text-help-head mt-1" />
                   </div>
                 </li>
               </ul>
@@ -136,7 +167,7 @@ function PopularCalculators() {
           </div>
         </div>
         <div className="flex justify-center mt-8 ">
-          {" "}
+        
           <p className="border rounded-3xl px-3 py-1 text-help-line font-semibold hover:bg-help-line hover:text-footer-white">
             View All Calculators
           </p>

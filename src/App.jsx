@@ -18,8 +18,9 @@ function App() {
   return (
     <div>
       {/* <CustomerReviews/> */}
-      {/* <DiscountInsurance/> */}
+     
       <TopComponent/>
+      {/* <DiscountInsurance/> */}
       <AlsoBuy/>
       <FeatureBox />
       <BestPlace />
